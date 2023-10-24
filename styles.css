@@ -1,0 +1,58 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilize o cabeçalho */
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff6600;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Estilize a seção das fantasias em destaque */
+
+.featured-costumes {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.costume {
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    background-color: #222;
+    border: 1px solid #666;
+    border-radius: 5px;
+}
+
+.costume img {
+    max-width: 100%;
+    height: auto;
+}
+
+.costume h2 {
+    font-size: 24px;
+    color: #ff6600;
+}
+
+.costume p {
+    font-size: 16px;
+}
+
+/* Estilize o rodapé */
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ff6600;
+}
